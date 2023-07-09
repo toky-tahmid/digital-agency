@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+   
+
+
+.nav-container {
+    display: flex;
+    background-color: rgb(131, 126, 126);
+    padding: 10px;
+    justify-content: space-around;
+
+}
+
+.menu {
+    list-style: none;
+
+
+}
+.menu-section{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+.background-container{
+    height: 100vh;
+    background-image: url(photos/background.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position:center;
+    background-size: cover;
+}
+    /* background-repeat: no repeat;if i select a small picture then i have to use it */
+    
+    /* display:flex ;
+    align-items: center; secondary way
+    text-align: center;
+} */
+.banner-info{
+    text-align: center;
+    padding: 170px;
+    color: white;
+    font-size: larger;
+    font-size: 50px;
+}
+.digital{
+    color: red;
+}
+
+.btn{
+    background-color: rgb(201, 45, 18);
+    color: white;
+    padding: 14px 38px;
+    border: none;
+    margin-top: 30px
+}
+.btn-normal{
+    color: black;
+    padding: 13px 38px;
+
+}
+
+.title-desc{
+    font-size: 25px;
+    padding: 5px;
+}
+#btn-service{
+    color: black;
+    padding: 13px 38px;
+    border-radius: 20px;
+}
+.service-container{
+    height: 100vh;
+    background-image: url(photos/footer-bg.png);
+    background-color: rgb(37, 36, 36);
+    background-blend-mode: overlay;
+    color: white;
+}
+.footer-container{
+    height: 100vh;
+    background-image: url(photos/footer-bg.png);
+    background-color: rgb(31, 29, 29);
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+   /* gap: 100px 50px ; */
+   align-items: center;
+   
+
+}
+.footer-section{
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+.footer-end{
+    text-align: center;
+    background-color: rgb(39, 38, 42);
+    color: white;
+    padding: 5px;
+}
